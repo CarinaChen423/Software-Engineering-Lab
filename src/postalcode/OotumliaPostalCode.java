@@ -33,7 +33,7 @@ public class OotumliaPostalCode extends PostalCode {
         for(int i=0; i<2; i++)
         {
             if(postCode.length() <= pos
-                    ||!Character.isLetter(postCode.charAt(pos)))
+                    ||!Character.isDigit(postCode.charAt(pos)))
                 throwException("Expecting letter at position "+(pos+1));
             pos++;
         }
