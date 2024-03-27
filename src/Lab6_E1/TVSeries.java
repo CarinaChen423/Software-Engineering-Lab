@@ -1,3 +1,5 @@
+package Lab6_E1;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -27,7 +29,7 @@ public class TVSeries {
         System.out.println("Producer: " + producer);
         System.out.println("Episodes: ");
         for (Episode episode : episodes) {
-            System.out.println("Episode number: " + episode.getNumberName());
+            System.out.println("Lab6.Episode number: " + episode.getNumberName());
             System.out.println("Title: " + episode.getTitleName());
             System.out.println("Synopsis: " + episode.getStorySynopsisName());
             System.out.println();

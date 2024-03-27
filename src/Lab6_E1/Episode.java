@@ -1,3 +1,5 @@
+package Lab6_E1;
+
 public class Episode {
     private int number;
     private String title;
