@@ -1,4 +1,4 @@
-// "Object-Oriented Software Engineering" and is issued under the open-source license
+package postalcode;// "Object-Oriented Software Engineering" and is issued under the open-source license
 
 import postalcode.*;
 
